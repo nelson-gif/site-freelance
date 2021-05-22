@@ -49,6 +49,7 @@ nav{
     width: 100%;
     height: 300px;
     margin-bottom: 5px;
+    margin: 0;
 }
 
 img{
@@ -97,3 +98,76 @@ img{
     color: #264653;
     cursor: pointer;
 }
+
+.principal{
+    background-color: #d8e2dc;
+    border: 2px solid aliceblue;
+}
+
+.center{
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.center h2{
+    margin-top: 55px;
+    font-size: 35px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-block{
+    height: 300px;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.center-item-block{
+    width: 85%;
+    height: 230px;
+    position: absolute;
+    padding: 15px;
+    top: 15%;
+    text-align: center;
+}
+
+div.center-item-block h4{
+    color: #264653;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    display: inline-block;
+    text-align: center;
+    background-color: #faa307;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.circle .icon{
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    top: 8px;
+    right: 8px;
+}
+
+div.center-item-block p{
+    text-align: center;
+}
+
+
