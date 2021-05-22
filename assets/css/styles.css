@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -34,11 +35,65 @@ nav{
 
 .menu a{
     text-decoration: none;
-    color: #CDCDCD;
+    color: #f8edeb;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .menu a:hover{
     color: #f4a261;
+}
+
+.head{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(30%);
+}
+
+.center-container{
+    position: relative;
+    top: 13%;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.center-container h2{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #f8edeb;
+    margin-bottom: 25px;
+}
+.center-container p{
+    display: inline-block;
+    color: #ede0d4;
+    margin: 15px;
+}
+
+.contact-button input{
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: #264653;
+    color: #f8edeb;
+    border: none;
+    font-size: 20px;
+}
+
+.contact-button input:hover{
+    background-color: #f4a261;
+    color: #264653;
+    cursor: pointer;
 }
