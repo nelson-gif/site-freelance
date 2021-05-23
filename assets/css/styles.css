@@ -6,10 +6,14 @@
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #d8e2dc;
+}
+
 header{
-    width: 100%;
     text-align: center;
     padding: 15px;
+    background-color: white;
 }
 h1{
     font-size: 25px;
@@ -99,11 +103,6 @@ img{
     cursor: pointer;
 }
 
-.principal{
-    background-color: #d8e2dc;
-    border: 2px solid aliceblue;
-}
-
 .center{
     width: 80%;
     margin: 30px auto;
@@ -170,4 +169,89 @@ div.center-item-block p{
     text-align: center;
 }
 
+section.contact{
+    padding-bottom: 35px;
+}
 
+section.contact h2{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.formulario{
+    width: 65%;
+    margin: auto;
+    color: #d8e2dc;
+    background: linear-gradient(#014f86 ,#012a4a ) ;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.formulario h3{
+    color: #faa307;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.formulario .fill-camp{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.fill-camp input{
+    flex-basis: 30%;
+    border-radius: 9px;
+    height: 25px;
+    border: none;
+    padding: 5px;
+}
+
+.fill-camp label{
+    flex-basis: 18%;
+}
+
+.give-width input, textarea{
+    flex-basis: 80%;
+    border-radius: 9px;
+    height: 25px;
+    border: none;
+    padding: 5px;
+}
+
+.give-width textarea{
+    height: 60px;
+}
+
+.button{
+    margin: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button input{
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    margin: 2px;
+    background-color: #e63946;
+    color: white;
+    font-size: 17px;
+}
+
+.button input:hover{
+    background-color: #ffb703;
+    color: black;
+    cursor: pointer;
+}
+
+footer{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
